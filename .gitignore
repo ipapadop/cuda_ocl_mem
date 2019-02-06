@@ -31,6 +31,8 @@
 *.out
 *.app
 
-.kdev4/
-*.kdev4
-build/
+# Build directories
+build*
+
+# IDEs
+*kdev4*
